@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './Components/Nav/Nav';
-import Exercises from './Exercises/Exercises';
+import Exercises from './Components/Exercises/Exercises';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Nav></Nav>
       <Exercises></Exercises>
     </div>

@@ -1,38 +1,38 @@
 [
     {
-      "_id": "63347e72db59691cb50d85e4",
-      "picture": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "time": 40,
-      "name": "Dumble"
+        "_id": "63347e72db59691cb50d85e4",
+        "picture": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z3ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "time": 40,
+        "name": "Dumble"
     },
     {
-      "_id": "63347e72607c98f41284be20",
-      "picture": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "time": 20,
-      "name": "Hanging"
+        "_id": "63347e72607c98f41284be20",
+        "picture": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "time": 20,
+        "name": "Hanging"
     },
     {
-      "_id": "63347e72a0f69b60194cf3ec",
-      "picture": "https://media.istockphoto.com/photos/side-view-of-beautiful-muscular-woman-running-on-treadmill-picture-id1132086660?k=20&m=1132086660&s=612x612&w=0&h=UTXXsDbUuREHV0UwHThgI144yKyReetDYlIL5C6_JoI=",
-      "time": 35,
-      "name": "Running"
+        "_id": "63347e72a0f69b60194cf3ec",
+        "picture": "https://media.istockphoto.com/photos/side-view-of-beautiful-muscular-woman-running-on-treadmill-picture-id1132086660?k=20&m=1132086660&s=612x612&w=0&h=UTXXsDbUuREHV0UwHThgI144yKyReetDYlIL5C6_JoI=",
+        "time": 35,
+        "name": "Running"
     },
     {
-      "_id": "63347e72cc6777d7d5b5da24",
-      "picture": "https://us.123rf.com/450wm/javiindy/javiindy1701/javiindy170100036/68763172-closeup-of-weightlift-workout-at-the-gym-with-barbell-man-wearing-sportswear-clothes-.jpg?ver=6",
-      "time": 30,
-      "name": "Weight Lifting"
+        "_id": "63347e72cc6777d7d5b5da24",
+        "picture": "https://us.123rf.com/450wm/javiindy/javiindy1701/javiindy170100036/68763172-closeup-of-weightlift-workout-at-the-gym-with-barbell-man-wearing-sportswear-clothes-.jpg?ver=6",
+        "time": 30,
+        "name": "Weight Lifting"
     },
     {
-      "_id": "63347e7206fe98e1fb083599",
-      "picture": "https://garciaweightloss.com/wp-content/uploads/2020/03/pushups-i-gym-picture-id1081871130.jpg",
-      "time": 30,
-      "name": "Push Up"
+        "_id": "63347e7206fe98e1fb083599",
+        "picture": "https://garciaweightloss.com/wp-content/uploads/2020/03/pushups-i-gym-picture-id1081871130.jpg",
+        "time": 30,
+        "name": "Push Up"
     },
     {
-      "_id": "63347e72cdf7f37f041cc344",
-      "picture": "https://media1.popsugar-assets.com/files/thumbor/pH75ODJG9A5QJzbyeto1hq8--WQ/fit-in/500x500/filters:format_auto-!!-:extract_cover-!!-:strip_icc-!!-/2019/01/14/981/n/1922729/d7a917fcc895f685_tmp_9exJJq_beaac227f84d8c0c_IMB_UbcdVy.GIF",
-      "time": 45,
-      "name": "Arm Exercise"
+        "_id": "63347e72cdf7f37f041cc344",
+        "picture": "https://media1.popsugar-assets.com/files/thumbor/pH75ODJG9A5QJzbyeto1hq8--WQ/fit-in/500x500/filters:format_auto-!!-:extract_cover-!!-:strip_icc-!!-/2019/01/14/981/n/1922729/d7a917fcc895f685_tmp_9exJJq_beaac227f84d8c0c_IMB_UbcdVy.GIF",
+        "time": 45,
+        "name": "Arm Exercise"
     }
-  ]
+]
