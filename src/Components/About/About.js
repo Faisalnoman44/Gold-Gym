@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLocationArrow } from 'react-icons/fa'
 
 const About = () => {
     return (
@@ -7,7 +8,10 @@ const About = () => {
                 <img className='rounded-full w-14' src="https://placeimg.com/80/80/people" alt="" />
                 <div>
                     <h4 className='text-lg font-bold'>Abdullah Al Noman</h4>
-                    <p className='text-gray-400'><small>Dhaka,Bangladesh</small></p>
+                    <p className='text-gray-400 flex gap-2'>
+                        <FaLocationArrow></FaLocationArrow>
+                        <small> Dhaka,Bangladesh</small>
+                    </p>
                 </div>
             </div>
             <div className='flex justify-around bg-gray-200 p-2 rounded-xl mt-5'>
