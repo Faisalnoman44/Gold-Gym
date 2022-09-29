@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaLocationArrow } from 'react-icons/fa'
+import BodyDetails from '../BodyDetails/BodyDetails';
 
 const About = () => {
     return (
@@ -15,26 +16,20 @@ const About = () => {
                 </div>
             </div>
             <div className='flex justify-around bg-gray-200 p-2 rounded-xl mt-5'>
-                <div>
-                    <h3>
-                        <span className='text-2xl font-bold'>61</span>
-                        <small className='font-bold text-gray-400'>kg</small>
-                    </h3>
-                    <h2 className='text-xl font-semibold text-gray-400'>Weight</h2>
-                </div>
-                <div>
-                    <h3>
-                        <span className='text-2xl font-bold'>5.4</span>
-                    </h3>
-                    <h2 className='text-xl font-semibold text-gray-400'>Height</h2>
-                </div>
-                <div>
-                    <h3>
-                        <span className='text-2xl font-bold'>21</span>
-                        <small className='font-bold text-gray-400'>yrs</small>
-                    </h3>
-                    <h2 className='text-xl font-semibold text-gray-400'>Age</h2>
-                </div>
+                <BodyDetails
+                    value={62}
+                    property={'kg'}
+                    propertyName={'Weight'}
+                ></BodyDetails>
+                <BodyDetails
+                    value={6.5}
+                    propertyName={'Height'}
+                ></BodyDetails>
+                <BodyDetails
+                    value={21}
+                    property={'yers'}
+                    propertyName={'Age'}
+                ></BodyDetails>
             </div>
         </div>
     );
