@@ -24,23 +24,23 @@ const Questions = () => {
             </div>
             <div className='bg-sky-300 p-6'>
                 <h1 className='text-3xl font-bold mb-3'>Q2:Difference between props and state</h1>
-                <div className='flex'>
+                <div className='lg:flex'>
                     <div className='w-1/2'>
                         <h3 className='text-2xl font-semibold mb-2'>Props</h3>
-                        <div className='text-lg font-semibold'>
-                            <p>The Data is passed from one component to another.</p>
-                            <p>It is Immutable (cannot be modified).</p>
-                            <p>Props can be used with state and functional components.</p>
-                            <p>Props are read-only</p>
+                        <div className='text-lg font-semibold mb-3'>
+                            <p>1.The Data is passed from one component to another.</p>
+                            <p>2.It is Immutable (cannot be modified).</p>
+                            <p>3.Props can be used with state and functional components.</p>
+                            <p>4.Props are read-only</p>
                         </div>
                     </div>
                     <div>
                         <h3 className='text-2xl font-semibold mb-2'>State</h3>
                         <div className='text-lg font-semibold'>
-                            <p>The Data is passed within the component only.</p>
-                            <p>It is Mutable ( can be modified).</p>
-                            <p>State can be used only with the state components/class component (Before 16.0).</p>
-                            <p>State is both read and write.</p>
+                            <p>1.The Data is passed within the component only.</p>
+                            <p>2.It is Mutable ( can be modified).</p>
+                            <p>3.State can be used only with the state components/class component (Before 16.0).</p>
+                            <p>4.State is both read and write.</p>
                         </div>
 
                     </div>

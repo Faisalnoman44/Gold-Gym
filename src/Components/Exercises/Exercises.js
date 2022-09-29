@@ -47,6 +47,7 @@ const Exercises = () => {
             <div>
                 <Information 
                 exerciseTime ={exerciseTime}
+                setExerciseTime ={setExerciseTime}
                 handleAddBreakTime={handleAddBreakTime}
                 breakTime = {breakTime}
                 ></Information>
