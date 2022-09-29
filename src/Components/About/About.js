@@ -22,7 +22,7 @@ const About = () => {
                     propertyName={'Weight'}
                 ></BodyDetails>
                 <BodyDetails
-                    value={6.5}
+                    value={5.4}
                     propertyName={'Height'}
                 ></BodyDetails>
                 <BodyDetails
