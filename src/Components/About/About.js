@@ -33,7 +33,7 @@ const About = () => {
                         <span className='text-2xl font-bold'>21</span>
                         <small className='font-bold text-gray-400'>yrs</small>
                     </h3>
-                    <h2 className='text-xl font-semibold text-gray-400'>Height</h2>
+                    <h2 className='text-xl font-semibold text-gray-400'>Age</h2>
                 </div>
             </div>
         </div>
