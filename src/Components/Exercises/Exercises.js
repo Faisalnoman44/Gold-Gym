@@ -7,6 +7,14 @@ import './Exercises.css'
 const Exercises = () => {
     const [exercises, setExercises] = useState([]);
 
+    const [exerciseTime, setExerciseTime] = useState(0)
+
+    const handleAddExerciseTime = (time) => {
+        const totalTime = exerciseTime + time;
+        setExerciseTime(totalTime);
+
+    }
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -20,11 +28,12 @@ const Exercises = () => {
                     exercises.map(exercise => <Exercise
                         exercise={exercise}
                         key={exercise._id}
+                        handleAddToExerciseTime={handleAddExerciseTime}
                     ></Exercise>)
                 }
             </div>
             <div>
-                <Information></Information>
+                <Information exerciseTime ={exerciseTime}></Information>
             </div>
 
         </div>
