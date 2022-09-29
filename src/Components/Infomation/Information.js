@@ -2,10 +2,27 @@
 import About from '../About/About';
 import Details from '../Details/Details';
 import Second from '../Second/Second';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import './Information.css'
 
 const Information = ({ exerciseTime, handleAddBreakTime, breakTime }) => {
+
+    const notify = () =>{
+        if(exerciseTime && breakTime){
+            toast.success('Congratulations', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                });
+        }
+        
+    }
 
     return (
         <div className='mt-5 p-3'>
@@ -25,9 +42,11 @@ const Information = ({ exerciseTime, handleAddBreakTime, breakTime }) => {
                 <Details name={'Break Time'} time={breakTime}></Details>
             </div>
             <div className='mt-8'>
-                <button className="btn btn-info w-full">Activity Completed</button>
+                <button onClick={() =>notify()} className="btn btn-info w-full">Activity Completed</button>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
+        
     );
 };
 
