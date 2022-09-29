@@ -2,6 +2,7 @@ import { data } from 'autoprefixer';
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 import Information from '../Infomation/Information';
+import { addToDb, getStoredBreakTime } from '../Utilities/fakeDb';
 import './Exercises.css'
 
 const Exercises = () => {
@@ -15,11 +16,22 @@ const Exercises = () => {
 
     }
 
+    const [breakTime, setBreakTime] = useState(0);
+    const handleAddBreakTime = (time) => {
+        setBreakTime(time)
+        addToDb(time)
+    }
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setExercises(data))
     }, [])
+
+    useEffect(()=>{
+        const breakTime = getStoredBreakTime();
+        setBreakTime(breakTime.second);
+    },[])
 
     return (
         <div className='exercises'>
@@ -33,7 +45,11 @@ const Exercises = () => {
                 }
             </div>
             <div>
-                <Information exerciseTime ={exerciseTime}></Information>
+                <Information 
+                exerciseTime ={exerciseTime}
+                handleAddBreakTime={handleAddBreakTime}
+                breakTime = {breakTime}
+                ></Information>
             </div>
 
         </div>

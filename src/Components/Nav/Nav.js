@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaBars } from 'react-icons/fa'
 
 const Nav = () => {
     return (
@@ -17,27 +18,19 @@ const Nav = () => {
                                 <li><a href="about">About</a></li>
                             </ul>
                         </div>
-                        <div tabIndex={0} className="mt-3 card card-compact dropdown-content w-52 bg-base-100 shadow">
-                            <div className="card-body">
-                                <span className="font-bold text-lg">8 Items</span>
-                                <span className="text-info">Subtotal: $999</span>
-                                <div className="card-actions">
-                                    <button className="btn btn-primary btn-block">View cart</button>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                     <div className="dropdown dropdown-end">
-                        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                            <div className="w-10 rounded-full">
-                                <img alt='' src="https://placeimg.com/80/80/people" className='md:hidden block' />
+                        <label tabIndex={0} className="btn btn-ghost btn-circle block md:hidden">
+                            <div className=' flex justify-center '>
+                                <FaBars className='text-xl'></FaBars>
                             </div>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="home">Home</a></li>
-                                <li><a href="contact">Contact</a></li>
-                                <li><a href="service">Service</a></li>
-                                <li><a href="about">About</a></li>
+                            <li><a href="home">Home</a></li>
+                            <li><a href="contact">Contact</a></li>
+                            <li><a href="service">Service</a></li>
+                            <li><a href="about">About</a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+
 import About from '../About/About';
 import Details from '../Details/Details';
 import Second from '../Second/Second';
+
 import './Information.css'
 
-const Information = ({ exerciseTime }) => {
-
-    const [breakTime, setBreakTime] = useState(0);
-    const handleAddBreakTime = (time) => {
-        setBreakTime(time)
-    }
+const Information = ({ exerciseTime, handleAddBreakTime, breakTime }) => {
 
     return (
         <div className='mt-5 p-3'>
