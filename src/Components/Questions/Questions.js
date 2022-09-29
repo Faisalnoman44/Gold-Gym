@@ -3,8 +3,8 @@ import React from 'react';
 const Questions = () => {
     return (
         <div>
-            <div>
-                <h1 className='text-3xl font-bold'>Q1:How Does React Works</h1>
+            <div className='bg-sky-200 p-6'>
+                <h1 className='text-3xl font-bold '>Q1:How Does React Works</h1>
                 <p className='text-lg font-semibold'> ReactJS is one of the most popular JavaScript libraries for mobile and web application development. Created by Facebook, React contains a collection of reusable JavaScript code snippets used for user interface (UI) building called components. It’s important to note that ReactJS is not a JavaScript framework. That’s because it’s only responsible for rendering the components of an application’s view layer. React is an alternative to frameworks like Angular and Vue, which all allow to create complex functions.This article will explore React’s features, explain how it works, and go over its benefits for front-end developers. We’ll also cover the differences between ReactJS and React Native regarding their roles in the web and mobile app development industry.</p>
                 <h3 className='text-2xl font-bold'>React Features</h3>
                 <p className='text-lg font-semibold'>React has some core features that make it stand out from other JavaScript libraries. The following sections will introduce you to these features and explain how they contribute to mobile and web application development.</p>
@@ -22,11 +22,11 @@ const Questions = () => {
 
 
             </div>
-            <div>
-                <h1 className='text-3xl font-bold'>Q2:Difference between props and state</h1>
+            <div className='bg-sky-300 p-6'>
+                <h1 className='text-3xl font-bold mb-3'>Q2:Difference between props and state</h1>
                 <div className='flex'>
                     <div className='w-1/2'>
-                        <h3 className='text-2xl font-semibold'>Props</h3>
+                        <h3 className='text-2xl font-semibold mb-2'>Props</h3>
                         <div className='text-lg font-semibold'>
                             <p>The Data is passed from one component to another.</p>
                             <p>It is Immutable (cannot be modified).</p>
@@ -35,7 +35,7 @@ const Questions = () => {
                         </div>
                     </div>
                     <div>
-                        <h3 className='text-2xl font-semibold'>State</h3>
+                        <h3 className='text-2xl font-semibold mb-2'>State</h3>
                         <div className='text-lg font-semibold'>
                             <p>The Data is passed within the component only.</p>
                             <p>It is Mutable ( can be modified).</p>
@@ -44,6 +44,16 @@ const Questions = () => {
                         </div>
 
                     </div>
+                </div>
+            </div>
+            <div className='bg-sky-400 p-6'>
+                <h1 className='text-3xl font-bold mb-3'>Q3:useEffect uses beside API load Data</h1>
+                <div className='text-lg font-semibold'>
+                    <p>1.Running on state change: validating input field</p>
+                    <p>2.Running on state change: live filtering</p>
+                    <p>3.Running on state change: trigger animation on new array value</p>
+                    <p>4.Running on props change: update paragraph list on fetched API data update</p>
+                    <p>5.Running on props change: updating fetched API data to get BTC updated price</p>
                 </div>
             </div>
 
