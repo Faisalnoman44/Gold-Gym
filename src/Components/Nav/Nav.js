@@ -9,8 +9,8 @@ const Nav = () => {
                 </div>
                 <div className="flex-none">
                     <div className="dropdown dropdown-end">
-                        <div>
-                            <ul className='flex text-lg font-semibold gap-7'>
+                        <div className='hidden md:block'>
+                            <ul className='flex text-lg font-semibold gap-7 '>
                                 <li><a href="home">Home</a></li>
                                 <li><a href="contact">Contact</a></li>
                                 <li><a href="service">Service</a></li>
@@ -30,18 +30,14 @@ const Nav = () => {
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                                <img alt='' src="https://placeimg.com/80/80/people" />
+                                <img alt='' src="https://placeimg.com/80/80/people" className='md:hidden block' />
                             </div>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li>
-                                <a href='/' className="justify-between">
-                                    Profile
-                                    <span className="badge">New</span>
-                                </a>
-                            </li>
-                            <li><a href='/'>Settings</a></li>
-                            <li><a href='/'>Logout</a></li>
+                        <li><a href="home">Home</a></li>
+                                <li><a href="contact">Contact</a></li>
+                                <li><a href="service">Service</a></li>
+                                <li><a href="about">About</a></li>
                         </ul>
                     </div>
                 </div>

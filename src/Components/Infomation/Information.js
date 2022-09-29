@@ -18,9 +18,9 @@ const Information = ({ exerciseTime }) => {
                 <h2 className='text-xl font-semibold my-7'>Add A Break</h2>
                 <div className='bg-gray-200 flex justify-around p-4 rounded-xl'>
                     <Second handleAddBreakTime={handleAddBreakTime} second={10}></Second>
-                    <Second handleAddBreakTime={handleAddBreakTime} second={40}></Second>
                     <Second handleAddBreakTime={handleAddBreakTime} second={20}></Second>
                     <Second handleAddBreakTime={handleAddBreakTime} second={30}></Second>
+                    <Second handleAddBreakTime={handleAddBreakTime} second={40}></Second>
                 </div>
             </div>
             <h2 className='text-xl font-semibold my-8'>Exercise Details</h2>
